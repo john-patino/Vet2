@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    class RazaService : ICrudEscritura<Raza>, ICrudLectura<Raza>
+    public class RazaService : ICrudEscritura<Raza>, ICrudLectura<Raza>
     {
         RazaRepository razaRepository;
         public RazaService()

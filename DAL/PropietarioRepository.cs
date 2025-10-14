@@ -48,7 +48,7 @@ namespace DAL
             return propietario;
         }
 
-        public override Propietario ObtenerProId(int id)
+        public override Propietario ObtenerPorId(int id)
         {
             return Consultar().FirstOrDefault<Propietario>(x => x.Id == id);
         }

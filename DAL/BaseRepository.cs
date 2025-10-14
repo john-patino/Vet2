@@ -27,7 +27,7 @@ namespace DAL
         }
 
         public abstract IList<T> Consultar();
-        public abstract T ObtenerProId(int id);
+        public abstract T ObtenerPorId(int id);
 
     }
 }

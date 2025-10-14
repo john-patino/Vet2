@@ -1,24 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DAL.BaseRepository&lt;T&gt;" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="DAL.BaseRepository&lt;T&gt;">
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAAAAABACAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>BaseRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DAL.VeterinarioRepository" Collapsed="true">
-    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VeterinarioRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DAL.PropietarioRepository">
-    <Position X="4.25" Y="1.5" Width="1.5" />
+  <Class Name="DAL.PropietarioRepository" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PropietarioRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.RazaRepository">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>RazaRepository.cs</FileName>
+      <NewMemberFileName>RazaREpository.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.MascotaRepository" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MascotaRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

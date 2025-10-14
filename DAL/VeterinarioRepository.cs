@@ -50,7 +50,7 @@ namespace DAL
             return veterinario;
         }
 
-        public override Veterinario ObtenerProId(int id)
+        public override Veterinario ObtenerPorId(int id)
         {
             return Consultar().FirstOrDefault<Veterinario>(x => x.Id == id);
         }

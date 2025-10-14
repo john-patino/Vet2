@@ -30,7 +30,7 @@ namespace BLL
         public Veterinario ObtenerPorId(int id)
         {
             //validar
-            return veterinarioRepository.ObtenerProId(id);
+            return veterinarioRepository.ObtenerPorId(id);
         }
         public bool Actualizar(Veterinario entidad)
         {

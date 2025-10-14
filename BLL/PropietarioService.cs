@@ -40,7 +40,7 @@ namespace BLL
 
         public Propietario ObtenerPorId(int id)
         {
-            return propietarioRepository.ObtenerProId(id);
+            return propietarioRepository.ObtenerPorId(id);
         }
     }
 }

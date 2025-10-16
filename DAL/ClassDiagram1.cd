@@ -3,28 +3,28 @@
   <Class Name="DAL.BaseRepository&lt;T&gt;">
     <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAAABACAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAABAAAAAAAAACAAACAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>BaseRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DAL.VeterinarioRepository" Collapsed="true">
-    <Position X="0.5" Y="3" Width="1.5" />
+    <Position X="0.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VeterinarioRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DAL.PropietarioRepository" Collapsed="true">
     <Position X="2.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PropietarioRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DAL.RazaRepository">
-    <Position X="7" Y="3.25" Width="1.5" />
+  <Class Name="DAL.RazaRepository" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>RazaRepository.cs</FileName>
       <NewMemberFileName>RazaREpository.cs</NewMemberFileName>
     </TypeIdentifier>
@@ -32,8 +32,15 @@
   <Class Name="DAL.MascotaRepository" Collapsed="true">
     <Position X="4.75" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAgCAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MascotaRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.UsuarioRepository" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UsuarioRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

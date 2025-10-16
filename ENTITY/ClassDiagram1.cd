@@ -21,11 +21,11 @@
       <FileName>Propietario.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ENTITY.Mascota">
-    <Position X="6.25" Y="1.75" Width="1.5" />
+  <Class Name="ENTITY.Usuario">
+    <Position X="5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQCAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>Mascota.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

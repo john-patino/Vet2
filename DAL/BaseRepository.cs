@@ -22,8 +22,7 @@ namespace DAL
             StreamWriter sw = new StreamWriter(ruta,true);
             sw.WriteLine(entidad.ToString());
             sw.Close();
-            return $"se guardo los datos de la entidad {typeof(T)}";
-
+            return $"se guardo los datos de la entidad {typeof(T).Name}";
         }
 
         public abstract IList<T> Consultar();

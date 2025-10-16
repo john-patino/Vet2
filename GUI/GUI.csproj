@@ -58,11 +58,23 @@
     <Compile Include="FrmConsultarRazas.Designer.cs">
       <DependentUpon>FrmConsultarRazas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsultarVeterinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarVeterinario.Designer.cs">
+      <DependentUpon>FrmConsultarVeterinario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRaza.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmRaza.Designer.cs">
       <DependentUpon>FrmRaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVeterinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeterinario.Designer.cs">
+      <DependentUpon>FrmVeterinario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +84,14 @@
     <EmbeddedResource Include="FrmConsultarRazas.resx">
       <DependentUpon>FrmConsultarRazas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarVeterinario.resx">
+      <DependentUpon>FrmConsultarVeterinario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmRaza.resx">
       <DependentUpon>FrmRaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeterinario.resx">
+      <DependentUpon>FrmVeterinario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -24,6 +24,7 @@ namespace BLL
         public ReadOnlyCollection<Propietario> Consultar()
         {
             var lista= propietarioRepository.Consultar();
+
             return new ReadOnlyCollection<Propietario>(lista);
         }
 
@@ -35,6 +36,14 @@ namespace BLL
         public string Guardar(Propietario entidad)
         {
             //validar
+            if (ObtenerPorId(entidad.Id)!=null)
+            {
+                return "ya existe";
+            }
+            if (entidad.Nombre==string.Empty)
+            {
+                return "nombre invalido, no puede ser vacio o nulo";
+            }
             return propietarioRepository.Guardar(entidad);
         }
 

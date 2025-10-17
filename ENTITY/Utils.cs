@@ -13,6 +13,6 @@ namespace ENTITY
         public const string ARC_MASCOTA = "mascota.txt";
         public const string ARC_PROPIETARIO = "propietario.txt";
         public const string ARC_USUARIO = "usuarios.txt";
-
+        public const string ARC_CITA = "citas.txt";
     }
 }

@@ -19,6 +19,10 @@ namespace BLL
         public string Guardar(Veterinario entidad)
         {
             //validaciones
+            if (ObtenerPorId(entidad.Id) != null)
+            {
+                return "ya existe";
+            }
             return veterinarioRepository.Guardar(entidad);
         }
         public ReadOnlyCollection<Veterinario> Consultar()

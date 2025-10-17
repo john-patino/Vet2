@@ -24,8 +24,29 @@
   <Class Name="ENTITY.Usuario">
     <Position X="5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAQAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTITY.Raza" Collapsed="true">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Raza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTITY.Mascota" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Mascota.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTITY.Cita">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAEAAAAIAIBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cita.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

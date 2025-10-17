@@ -37,10 +37,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DAL.UsuarioRepository" Collapsed="true">
-    <Position X="6.75" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UsuarioRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.CitaRepository">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQCAAACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CitaRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

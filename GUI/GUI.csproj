@@ -64,6 +64,12 @@
     <Compile Include="FrmConsultarVeterinario.Designer.cs">
       <DependentUpon>FrmConsultarVeterinario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPropietario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPropietario.Designer.cs">
+      <DependentUpon>FrmPropietario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRaza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultarVeterinario.resx">
       <DependentUpon>FrmConsultarVeterinario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPropietario.resx">
+      <DependentUpon>FrmPropietario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRaza.resx">
       <DependentUpon>FrmRaza.cs</DependentUpon>

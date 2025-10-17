@@ -52,5 +52,20 @@ namespace GUI
         {
             grilla.DataSource = veterinarioService.Consultar();
         }
+
+        private void txtCodigo_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtCodigo.Text==string.Empty)
+            {
+                e.Cancel = true;
+                epVeterinario.SetError(txtCodigo,"el codigo no puede ser vacio");
+                btnGuardar.Enabled = false;
+                txtCodigo.Focus();
+            }
+            else
+            {
+                btnGuardar.Enabled = true;
+            }
+        }
     }
 }

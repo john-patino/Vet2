@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CitaRepository.cs" />
     <Compile Include="MascotaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropietarioRepository.cs" />
